@@ -1,7 +1,6 @@
 export default {
   include: [
-    'dist/**/*.js',
-    'dist/index.d.ts',
+    'src/index.d.ts',
     'LICENSE',
     'package.json',
     'README.md'
