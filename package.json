@@ -1,6 +1,6 @@
 {
   "name": "ps-extendscript-types",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Photoshop extendscript typescript types.",
   "scripts": {
     "build": "clean-scripts build",
