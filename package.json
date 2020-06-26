@@ -19,8 +19,6 @@
   },
   "homepage": "https://github.com/plantain-00/ps-extendscript-types#readme",
   "devDependencies": {
-    "@commitlint/cli": "9.0.1",
-    "@commitlint/config-conventional": "9.0.1",
     "@typescript-eslint/eslint-plugin": "3.4.0",
     "@typescript-eslint/parser": "3.4.0",
     "clean-scripts": "1.16.0",
