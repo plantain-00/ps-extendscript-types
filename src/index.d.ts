@@ -5748,12 +5748,7 @@ interface ColorSampler {
   remove(): void
 }
 
-interface ColorSamplers {
-  /**
-   * The number of elements in the ColorSamplers collection.
-   */
-  readonly length: number
-
+type ColorSamplers = ColorSampler[] & {
   /**
    * The containing document.
    */
@@ -5883,12 +5878,7 @@ interface CountItem {
   remove(): void
 }
 
-interface CountItems {
-  /**
-   * The number of elements in the CountItems collection.
-   */
-  readonly length: number
-
+type CountItems = CountItem[] & {
   /**
    * The containing document.
    */
@@ -6699,12 +6689,7 @@ interface DocumentInfo {
   urgency: Urgency
 }
 
-interface Documents {
-  /**
-   * The number of elements in the documents collection.
-   */
-  readonly length: number
-
+type Documents = Document[] & {
   /**
    * The containing application.
    */
@@ -7378,12 +7363,7 @@ declare class Guide {
   coordinate: UnitValue
 }
 
-interface Guides {
-  /**
-   * The number of elements in the guides collection.
-   */
-  readonly length: number
-
+type Guides = Guide[] & {
   /**
    * The containing document.
    */
@@ -7427,12 +7407,7 @@ interface HistoryState {
   readonly typename: string
 }
 
-interface HistoryStates {
-  /**
-   * The number of elements in the HistoryStates collection.
-   */
-  readonly length: number
-
+type HistoryStates = HistoryState[] & {
   /**
    * The containing document.
    */
@@ -7646,12 +7621,7 @@ interface LayerComp {
   resetfromComp(): void
 }
 
-interface LayerComps {
-  /**
-   * The number of elements in the layerComps collection.
-   */
-  readonly length: number
-
+type LayerComps = LayerComp[] & {
   /**
    * The containing document.
    */
@@ -7925,12 +7895,7 @@ interface Notifier {
   remove(): void
 }
 
-interface Notifiers {
-  /**
-   * The number of elements in the notifiers collection.
-   */
-  readonly length: number
-
+type Notifiers = Notifier[] & {
   /**
    * The notifiers object’s container
    */
@@ -8041,12 +8006,7 @@ interface PathItem {
   strokePath(tool?: ToolType, simulatePressure?: boolean): void
 }
 
-interface PathItems {
-  /**
-   * The number of pathItem objects in the pathItems collection.
-   */
-  readonly length: number
-
+type PathItems = PathItem[] & {
   /**
    * The pathItems object's container.
    */
@@ -8142,12 +8102,7 @@ declare class PathPointInfo {
   readonly typename: string
 }
 
-interface PathPoints {
-  /**
-   * The number of elements in the collection.
-   */
-  readonly length: number
-
+type PathPoints = PathPoint[] & {
   /**
    * The containing subpath object.
    */
@@ -9314,12 +9269,7 @@ interface SubPathItem {
   readonly typename: string
 }
 
-interface SubPathItems {
-  /**
-   * The number of elements in the collection.
-   */
-  readonly length: number
-
+type SubPathItems = SubPathItem[] & {
   /**
    * The containing path item.
    */
@@ -9385,12 +9335,7 @@ interface TextFont {
   readonly typename: string
 }
 
-interface TextFonts {
-  /**
-   * The number of elements in the collection.
-   */
-  readonly length: number
-
+type TextFonts = TextFont[] & {
   /**
    * The containing application.
    */
