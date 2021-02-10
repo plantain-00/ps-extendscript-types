@@ -5163,7 +5163,7 @@ interface ArtLayer extends LayerCommon {
   /**
    * Links the layer with the specified layer.
    */
-  link(with_: LayerSet): void
+  link(with_: Layer): void
 
   /**
    * Merges the layer down, removing the layer from the document; returns a
